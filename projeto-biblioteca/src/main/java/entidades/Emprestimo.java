@@ -9,7 +9,7 @@ import jakarta.persistence.ManyToOne;
 
 
 @Entity
-public class Emprestimo {
+public class Emprestimo{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
